@@ -187,9 +187,8 @@ export const languagePreferenceOptions = [
 ];
 
 export const medicalSupportOptions = [
-    { value: "required", label: "ต้องการ (มีแพทย์หรือพยาบาลประจำ)" },
-    { value: "not_required", label: "ไม่ต้องการ" },
-    { value: "unsure", label: "ไม่แน่ใจ" },
+    { value: "required", label: "มี (มีแพทย์หรือพยาบาลประจำ)" },
+    { value: "not_required", label: "ไม่มี" },
 ];
 
 export const previousHealthTourismOptions = [
