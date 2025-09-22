@@ -85,8 +85,8 @@ const submit = () => {
 
 <template>
     <AppLayout title="กรอกแบบสอบถาม">
-        <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
-            <h1 class="font-bold text-3xl">
+        <div class="max-w-7xl mx-auto sm:px-6 lg:px-8 py-12">
+            <h1 class="font-bold text-3xl mb-4">
                 🏥 แบบสำรวจความต้องการท่องเที่ยวเพื่อสุขภาพ
             </h1>
             <Stepper value="1">
