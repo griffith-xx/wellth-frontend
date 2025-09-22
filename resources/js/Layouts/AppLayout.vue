@@ -16,7 +16,7 @@ useFlash();
 <template>
     <Head :title="title" />
     <Toast />
-    <div class="">
+    <div>
         <slot />
     </div>
 </template>
