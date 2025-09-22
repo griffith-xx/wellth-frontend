@@ -130,7 +130,7 @@ export const preferredClimateOptions = [
     { value: "warm", label: "อบอุ่น (ไม่ร้อนเกินไป)" },
     { value: "tropical_hot", label: "ร้อนแบบเมืองร้อน" },
     { value: "sea_breeze", label: "ลมเย็น/ลมทะเล" },
-    { value: "no_preference", label: "ไม่จำกัด" },
+    { value: "no_preference", label: "ไม่สนใจ" },
 ];
 
 export const preferredMonthsOptions = [
