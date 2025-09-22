@@ -26,7 +26,7 @@ class UserPreferenceController extends Controller
             'spa_treatments' => 'required|array|min:1',
             'spa_treatments.*' => 'string|in:thai_massage,aromatherapy,hot_stone,herbal_steam,body_scrub,facial_treatment,mineral_bath,mud_therapy,not_interested',
             'traditional_healing' => 'array',
-            'traditional_healing.*' => 'string|in:thai_traditional_medicine,thai_herbalm medicine,herbal_compress,chinese_medicine,ayurveda,yoga_therapy,meditation_therapy,not_interested',
+            'traditional_healing.*' => 'string|in:thai_traditional_medicine,thai_herbal_medicine,herbal_compress,chinese_medicine,ayurveda,yoga_therapy,meditation_therapy,not_interested',
             'fitness_programs' => 'array',
             'fitness_programs.*' => 'string|in:yoga,pilates,muay_thai,fitness_camp,swimming,hiking,cycling,not_interested',
 
@@ -56,7 +56,7 @@ class UserPreferenceController extends Controller
             'mobility_requirements' => 'required|array|min:1',
             'mobility_requirements.*' => 'string|in:wheelchair_accessible,elderly_friendly,child_friendly,elevator_access,no_special_needs',
             'language_preference' => 'required|string|in:thai,english,chinese,japanese,korean,not_important',
-            'medical_support_needed' => 'required|string|in:required,not_required,unsure',
+            'medical_support_needed' => 'required|string|in:required,not_required',
 
             // ส่วนที่ 7: ประสบการณ์และความคาดหวัง
             'previous_health_tourism' => 'required|string|in:never,once_twice,multiple_times,regularly',
