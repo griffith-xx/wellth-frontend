@@ -220,7 +220,7 @@ const submit = () => {
                             </div>
                             <div class="flex flex-col gap-2">
                                 <h1 class="font-semibold">
-                                    2.3 การรักษาแผนไทย/ทางเลือกที่สนใจ
+                                    โปรแกรมออกกำลังกาย/ฟิตเนสที่สนใจ
                                 </h1>
                                 <div
                                     v-for="(
