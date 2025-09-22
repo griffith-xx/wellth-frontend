@@ -1,7 +1,7 @@
 <script setup>
 import AppLayout from "@/Layouts/AppLayout.vue";
 import { useForm } from "@inertiajs/vue3";
-import { Stepper, StepItem, Step, StepPanel, Button, Checkbox, RadioButton, InputText } from "primevue/stepper";
+import { Stepper, StepItem, Step, StepPanel, Button, Checkbox, RadioButton, InputText } from "primevue";
 import {
     healthGoalsOptions,
     healthConditionsOptions,
