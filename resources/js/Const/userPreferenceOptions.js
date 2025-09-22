@@ -135,9 +135,9 @@ export const preferredClimateOptions = [
 
 export const preferredMonthsOptions = [
     { value: "jan_feb", label: "มกราคม-กุมภาพันธ์ (หนาวจัด)" },
-    { value: "mar_may", label: "มีนาคม-พฤษภาคม (ร้อน/ไฟป่า)" },
-    { value: "jun_aug", label: "มิถุนายน-สิงหาคม (ฝนต้น)" },
-    { value: "sep_oct", label: "กันยายน-ตุลาคม (ฝนปลาย)" },
+    { value: "mar_may", label: "มีนาคม-พฤษภาคม (ร้อน)" },
+    { value: "jun_aug", label: "มิถุนายน-สิงหาคม (ฝนตก)" },
+    { value: "sep_oct", label: "กันยายน-ตุลาคม (ฝนตก)" },
     { value: "nov_dec", label: "พฤศจิกายน-ธันวาคม (หนาว)" },
     { value: "flexible", label: "ยืดหยุ่น/ตลอดปี" },
 ];
